@@ -2,10 +2,3 @@
 	path = dhmodule
 	url = git@github.com:shehabic/dhmodule.git
 
-[submodule "fluttermediator"]
-        path = fluttermediator
-        url = git@github.com:shehabic/fluttermediator.git
-
-[submodule "pandoraflutter"]
-        path = pandoraflutter
-        url = git@github.com:shehabic/pandoraflutter.git
