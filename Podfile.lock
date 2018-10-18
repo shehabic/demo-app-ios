@@ -1,29 +1,36 @@
 PODS:
+  - dhplugin (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
   - flutter_webview_plugin (0.0.1):
     - Flutter
   - FlutterPluginRegistrant (0.0.1):
+    - dhplugin
     - Flutter
     - flutter_webview_plugin
 
 DEPENDENCIES:
-  - Flutter (from `pandoraflutter/.ios/Flutter/engine`)
-  - flutter_webview_plugin (from `pandoraflutter/.ios/Flutter/.symlinks/flutter_webview_plugin/ios`)
-  - FlutterPluginRegistrant (from `pandoraflutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - dhplugin (from `dhmodule/.ios/Flutter/.symlinks/dhplugin/ios`)
+  - Flutter (from `dhmodule/.ios/Flutter/engine`)
+  - flutter_webview_plugin (from `dhmodule/.ios/Flutter/.symlinks/flutter_webview_plugin/ios`)
+  - FlutterPluginRegistrant (from `dhmodule/.ios/Flutter/FlutterPluginRegistrant`)
 
 EXTERNAL SOURCES:
+  dhplugin:
+    :path: dhmodule/.ios/Flutter/.symlinks/dhplugin/ios
   Flutter:
-    :path: pandoraflutter/.ios/Flutter/engine
+    :path: dhmodule/.ios/Flutter/engine
   flutter_webview_plugin:
-    :path: pandoraflutter/.ios/Flutter/.symlinks/flutter_webview_plugin/ios
+    :path: dhmodule/.ios/Flutter/.symlinks/flutter_webview_plugin/ios
   FlutterPluginRegistrant:
-    :path: pandoraflutter/.ios/Flutter/FlutterPluginRegistrant
+    :path: dhmodule/.ios/Flutter/FlutterPluginRegistrant
 
 SPEC CHECKSUMS:
+  dhplugin: eeaecfab48c9cfd5c4c402ae19e00247805b6e91
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
   flutter_webview_plugin: 116575b48572029304775b768e9f15ebfc316274
-  FlutterPluginRegistrant: 898e92c189f41c59778de6e4d87be7ca8d1d1c6a
+  FlutterPluginRegistrant: e18dc82c06753e8f3443e25a935e9049adf681cc
 
-PODFILE CHECKSUM: 567af4892b1e0199a536bdfd5331fee9199729e6
+PODFILE CHECKSUM: 6d8bcc496076f4df2cb98b587db042c480eb4c70
 
 COCOAPODS: 1.5.3
