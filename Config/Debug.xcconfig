@@ -1,0 +1,12 @@
+//
+//  Debug.xcconfig
+//  DemoApp
+//
+//  Created by Moh Osman on 14.10.18.
+//  Copyright © 2018 shehabic. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "../Flutter/Flutter.xcconfig"
+#include "../Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"
